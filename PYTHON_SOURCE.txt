@@ -1,0 +1,33 @@
+**PYTHON PROGRAMMING SOURCE LIST**
+Compiler/IDE: Python/Notepad++
+
+00- Hello World
+01- Console Input
+02- Variables
+03- String
+04- Operations
+05- Boolean
+06- List
+07- Set, Frozen Set
+08- Tuple
+09- Range
+10- Dictionary
+11- Type Conversion
+12- If, Elif, Else
+13- For
+14- While
+15- Nesting
+16- Break, Continue, Pass
+17- Exception Handling
+18- Function
+19- Namespace
+20- Library Import
+21- File Handling
+22- Regular Expressions
+23- Class Object
+24- Comprehension
+25- Lambda Expressions
+26- Iterator
+27- Itertools
+28- Decorator
+29- Threading

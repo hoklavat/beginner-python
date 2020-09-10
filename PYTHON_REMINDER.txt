@@ -1,0 +1,187 @@
+****PYTHON PROGRAMMING****
+
+[Comment]
+single-line: #
+multi-line: ‘’’
+
+[Data Types]
+None, Boolean, Number, String, List, Set, Frozenset, Tuple, Range, Dictionary
+
+[Standard Functions]
+print, input, id, type, len, range
+
+[Mutability]
+mutable: can be modified after creation. list, dictionary, set
+immutable: cannot be modified after creation. string, number, tuple, frozenset
+
+[Keywords]
+and, as, assert, async, await, break, class, continue, def, del, elif, else, except, FALSE, finally, for, from, global, if, import, in, is, lambda, None, nonlocal, not, or, pass, raise, return, TRUE, try, while, with, yield
+
+[String Methods]
+len, index, count, find, lower, upper, startswith, endswith, strip, split, join, replace, capitalize, lstrip, rstrip, swapcase, title, isalnum, isalpha, isdigit, islower, isnumeric, isspace, istitle, isupper
+
+[Numbers]
+integer, floating-point, complex
+
+[String Placeholders]
+%s: string
+%d: number
+%f: floating-point (%.xf, x: number of digits)
+“{}”.format(…)
+
+[String Operations]
+Concatenation: +
+Repetition: *
+
+[Slicing]
+A[x:y:z]
+x: start
+y: end
+z: step
+
+[Arithmetic Operators]
+Addition (+), Subtraction (-), Multiplication (*), Division (/), Integer Division (//), Modulo (%), Power (**)
+
+[Comparision Operators]
+Greater Than (>), Greater Than or Equal (>=), Less Than (<), Less Than or Equal (<=), Equal (==), Not Equal (!=)
+
+[Number Functions]
+bool, int, float, abs, max, min, pow
+
+[Boolean Operators]
+and, or, not
+
+[False Expressions]
+None, 0, 0.0, 0L, 0j, “”, [], (), {}
+
+[List]
+[], min, max, append, del, pop, remove, insert, extend, index, count, sort, reverse, sorted, in, not in, …
+
+[Set]
+Unordered. No Duplication.
+{}, add, remove, intersection, difference, union, pop, clear, …
+
+[Frozenset]
+Immutable Set.
+
+[Tuple]
+Immutable List.
+(), max, min, …
+
+[Range]
+list, index, …
+
+[Dictionary]
+{Key:Value}, keys, values, items, …
+
+[Conversion]
+str, int, float, list, tuple, set, bin, hex, int
+
+[Indentation]
+TAB
+
+[Conditional Jump]
+if-elif-else
+
+[Iteration]
+for-else
+
+[Loop]
+while-else
+
+[Loop Control]
+break, continue, pass
+
+[Exception Handling]
+try-except-else-finally
+
+[Function]
+def Func_Name(Parameters, *args/**kwargs)
+doc_string
+…
+return(Value)
+
+[Positional/Keyword Arguments]
+Default Parameter Value
+
+[Namespaces]
+Built-In, Global, Local
+
+[Importing]
+import, from, dir, help, sys.path
+import …
+from … import …
+
+[Installing External Module]
+c:\>python -m pip install openpyx1
+c:\>python -m pip install --upgrade pip
+
+[File]
+Modes: read(r), write(w), append(a), binary(b), exclusive creation(x), r+, w+, a+
+Methods: open, mode, read, tell, seek, readline, readlines, close, closed, write, writelines
+with open(…) as f:
+
+[Regular Expression]
+match, group, groups, search, findall, sub, I
+r: raw string
+(…): group
+.: any char except new line
++: previous expression can repeat one or more times
+*: previous expression can repeat zero or more times
+?: whitespaces not included
+\d: any decimal digit
+\s: any whitespace character
+{x,y}: repetitions
+\w: any letters
+\.: special character escaping
+[x-y]: range of characters
+
+[Class]
+Method: function
+Object: instance of class
+Attribute: state of object
+Constructor: __init__
+Self Reference: self
+Inheritance: child class inherited from parent class. class Child(Parent1, Parent2, …)
+Functions: setattr, getattr, hasattr, delattr, isinstance, issubclass
+
+[Comprehensions]
+expressions inside initialization. List, Set, Dictionary
+[ … for … in … if …]
+
+[Lambda Functions]
+lambda arg1, arg2, …, argn: expression
+
+[Map/Filter]
+map: apply function to each element in the list
+filter: return elements that makes expression true
+
+[Iterator/Generator]
+iter, next, yield
+StopIteration
+Generator: loop function that returns yield value after calling next.
+itertools: chain, count, cycle, filter, filterfalse, islice
+
+[Decorator]
+function that takes another function as parameter.
+
+[Threading]
+threading.Thread()
+start, join
+
+[Further Documentation]
+* Python
+* Windows
+* Ubuntu
+* Arista
+* VirtualBox
+* Putty
+* Notepad++
+* OpenSSH
+* JumpSSH
+* Regular Expressions
+* Paramiko (SSH)
+* Netmiko (SSH)
+* ICMP (Ping)
+* Scapy (Sniffer)
+* MatPlotLib
